@@ -53,6 +53,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Beltless.Properties.Resources.Mercedes_ic;
             this.ClientSize = new System.Drawing.Size(963, 580);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
