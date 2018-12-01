@@ -19,8 +19,7 @@ namespace Beltless
 
         private void button1_Click(object sender, EventArgs e)
         {
-           string k = ConnectionToAzure.ConnectAzure();
-            textBox1.Text = k;
+             ConnectionToAzure.ConnectAzure(listBox1);
         }
     }
 }
