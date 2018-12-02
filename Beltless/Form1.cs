@@ -49,16 +49,16 @@ namespace Beltless
             }
         }
 
-        public void getSpeed()
+        public int[] getSpeed()
         {
             int[] d = Conected.ConnectAzure();
-
+            return d;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            getSpeed();
-            getİnfo();
+            int[]d=getSpeed();
+            getİnfo(d);
         }
 
         private void getİnfo(int[]array)
