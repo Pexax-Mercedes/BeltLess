@@ -63,8 +63,6 @@
   <ItemGroup>
     <Compile Include="Brake.cs" />
     <Compile Include="Circular_Motion.cs" />
-    <Compile Include="ConnectDB_demo.cs" />
-    <Compile Include="ConnectionToAzure.cs" />
     <Compile Include="Database\Cars.cs" />
     <Compile Include="Database\Crush_Positions.cs" />
     <Compile Include="Database\Person.cs" />
