@@ -12,7 +12,7 @@ This application is a simulation application that allows the smart seat to work 
 
 ## Built With
 
-* [MSBuild](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Travis](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 
 
 ## Authors
