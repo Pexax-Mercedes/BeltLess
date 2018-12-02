@@ -19,7 +19,6 @@ namespace Beltless
         {
             InitializeComponent();
         }
-        int num = 1;
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -41,7 +40,7 @@ namespace Beltless
         {
             for (int i = 1; i < 11; i++)
             {
-                string myString = string.Format(@"C:\Users\Abraxel\source\repos\Pexax-Mercedes\Beltless\Beltless\Resources\{0}.png", i);
+                string myString = string.Format(@"D:\Documents\Visual Studio 2017\Projets\Beltless\Beltless\Resources\{0}.png", i);
                 Thread.Sleep(th);
                 pictureBox1.ImageLocation = myString;
             }

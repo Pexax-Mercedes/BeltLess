@@ -64,6 +64,11 @@
     <Compile Include="Brake.cs" />
     <Compile Include="Circular_Motion.cs" />
     <Compile Include="ConnectionToAzure.cs" />
+    <Compile Include="Database\Cars.cs" />
+    <Compile Include="Database\Crush_Positions.cs" />
+    <Compile Include="Database\Person.cs" />
+    <Compile Include="Database\Seat_Sensors.cs" />
+    <Compile Include="Database\Situations.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,5 +131,6 @@
     <Content Include="Resources\8.png" />
     <Content Include="Resources\9.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
