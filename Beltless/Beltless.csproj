@@ -63,7 +63,6 @@
   <ItemGroup>
     <Compile Include="Brake.cs" />
     <Compile Include="Circular_Motion.cs" />
-    <Compile Include="Conected.cs" />
     <Compile Include="Database\Cars.cs" />
     <Compile Include="Database\Crush_Positions.cs" />
     <Compile Include="Database\Person.cs" />
