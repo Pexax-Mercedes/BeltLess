@@ -19,22 +19,12 @@ namespace Beltless
         {
             InitializeComponent();
         }
-        int num = 1;
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-        }
-        
         public void showImage(int th)
         {
 
@@ -50,9 +40,5 @@ namespace Beltless
             }
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }
