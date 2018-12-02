@@ -22,7 +22,7 @@ namespace Beltless
               builder.InitialCatalog = "Beltlessx";
               builder.ConnectionString = "Select* from Person";
               SqlConnection connection = new SqlConnection(builder);
-
+                    
               connection.Open();
 
               SqlCommand command = new SqlCommand();

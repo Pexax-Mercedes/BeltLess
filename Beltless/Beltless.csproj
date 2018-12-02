@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Brake.cs" />
     <Compile Include="Circular_Motion.cs" />
+    <Compile Include="ConnectDB_demo.cs" />
     <Compile Include="ConnectionToAzure.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
