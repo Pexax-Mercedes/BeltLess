@@ -10,6 +10,10 @@ namespace Beltless
 {
     class Persons
     {
+
+        /// <summary>
+        /// Burada List-Class Yapısını kullanarak Databaseden verileri getirmek için arabir katman olarak düşünülebilir.
+        /// </summary>
         public List<Person> person_List = new List<Person>();
         public List<Cars> Cars_List = new List<Cars>();
         public List<Seat_Sensors> SeatSensor_List = new List<Seat_Sensors>();
