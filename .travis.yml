@@ -1,5 +1,3 @@
 language: csharp
-
 solution: Beltless.sln
-  mono:
-  - latest
+
