@@ -1,5 +1,6 @@
 Hack.Istanbul - Pexax
 # Beltless
+[![Build Status](https://travis-ci.org/Pexax-Mercedes/Beltless.svg?branch=master)](https://travis-ci.org/Pexax-Mercedes/Beltless)
 
 This application is a simulation application that allows the smart seat to work correctly with live data.
 
