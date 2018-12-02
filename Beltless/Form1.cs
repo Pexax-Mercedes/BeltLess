@@ -19,9 +19,7 @@ namespace Beltless
         public Form1()
         {
             InitializeComponent();
-            Persons obje = new Persons();
-            obje.Call_MyModel();
-            obje.person_List[1].
+            
         }
        
 
@@ -44,11 +42,6 @@ namespace Beltless
                 Thread.Sleep(th);
                 pictureBox1.ImageLocation = myString;
             }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
