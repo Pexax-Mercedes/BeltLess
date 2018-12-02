@@ -10,11 +10,11 @@ namespace Beltless
 {
     class Persons
     {
-        List<Person> person_List = new List<Person>();
-        List<Cars> Cars_List = new List<Cars>();
-        List<Seat_Sensors> SeatSensor_List = new List<Seat_Sensors>();
-        List<Crush_Positions> CrushPosition_List = new List<Crush_Positions>();
-        List<Situations> Situations_List = new List<Situations>();
+        public List<Person> person_List = new List<Person>();
+        public List<Cars> Cars_List = new List<Cars>();
+        public List<Seat_Sensors> SeatSensor_List = new List<Seat_Sensors>();
+        public List<Crush_Positions> CrushPosition_List = new List<Crush_Positions>();
+        public List<Situations> Situations_List = new List<Situations>();
 
 
         public void Call_MyModel()

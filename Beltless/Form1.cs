@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 
 using System.Threading;
+using hakaton;
 
 namespace Beltless
 {
@@ -18,6 +19,9 @@ namespace Beltless
         public Form1()
         {
             InitializeComponent();
+            Persons obje = new Persons();
+            obje.Call_MyModel();
+            obje.person_List[1].
         }
        
 
@@ -42,6 +46,9 @@ namespace Beltless
             }
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
