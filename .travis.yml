@@ -1,0 +1,10 @@
+language: csharp
+csharp:
+-7.0
+solution: solution-name.sln
+script:
+  - ./build.sh
+  - ./test.sh
+  - grep "Test Results" build.log
+  mono:
+  - latest
