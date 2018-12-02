@@ -8,7 +8,14 @@ namespace Beltless.Database
 {
     class Cars
     {
-        public int Car_Id { get; set; }
-        public string Name { get; set; }
+        public int Car_Id;
+        public string Name;
+
+        public Cars(int car_id, string name)
+        {
+            this.Car_Id = car_id;
+            this.Name = name;
+        }
+
     }
 }

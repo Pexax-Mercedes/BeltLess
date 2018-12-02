@@ -10,10 +10,8 @@ namespace Beltless
 {
     class ConnectionToAzure
     {
-        public static void ConnectAzure(ListBox lb)
+        public static void ConnectAzure(ListBox ss)
         {
-            string Result = "";
-
             /*  string result = "";
               SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
               builder.DataSource = "pexax.database.windows.net";
@@ -36,6 +34,10 @@ namespace Beltless
               connection.Close();
               return result; */
 
+            string Result1 = "";
+            string Result2 = "";
+            string Result3 = "";
+            string tablo = "person";
             try
             {
                 
@@ -51,7 +53,7 @@ namespace Beltless
                     connection.Open();
                     StringBuilder sb = new StringBuilder();
                     sb.Append("SELECT");
-                    sb.Append("*FROM Person ");
+                    sb.Append(string.Format("*FROM {0}", tablo));
                     String sql = sb.ToString();
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
@@ -60,8 +62,10 @@ namespace Beltless
                         {
                             while (reader.Read())
                             {
-                               Result =  reader[1].ToString();
-                                lb.Items.Add(Result);
+                                Result1 =  reader[1].ToString();
+                                Result2 = reader[2].ToString();
+                                Result3 = reader[3].ToString();
+
                             }
                         }
                     }
