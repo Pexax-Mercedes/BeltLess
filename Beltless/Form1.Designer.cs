@@ -49,9 +49,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Beltless.Properties.Resources._1;
-            this.pictureBox1.Location = new System.Drawing.Point(316, 260);
+            this.pictureBox1.Location = new System.Drawing.Point(233, 224);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(531, 296);
+            this.pictureBox1.Size = new System.Drawing.Size(610, 336);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;

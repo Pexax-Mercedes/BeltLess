@@ -19,6 +19,7 @@ namespace Beltless
         {
             InitializeComponent();
         }
+        int num = 1;
 
         private void button1_Click(object sender, EventArgs e)
         {
