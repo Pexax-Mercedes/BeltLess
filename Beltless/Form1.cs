@@ -69,10 +69,10 @@ namespace Beltless
 
             for (int i = 0; i < array.Length; i++)
             {
-                double acceleration_car = car.acceleration(0, array[i], 1);
-                double speed_armchair = car.final_speed(acceleration_car, 0, 0.15);
-                double circleAccelerationArmchair = armchairCircularMotion.acceleration(speed_armchair, 15);
-                double dete = armchairCircularMotion.angel(speed_armchair, 0.2);
+                double acceleration_car = car.acceleration(0, array[i], 1);//arabanın ivmesi
+                double speed_armchair = car.final_speed(acceleration_car, 0, 0.15);//koltuk track sonunda hız
+                double circleAccelerationArmchair = armchairCircularMotion.acceleration(speed_armchair, 0.15);//dairesel ivme
+                double dete = armchairCircularMotion.angel(speed_armchair, 0.2);//açma hesaplama
             }
             
             
