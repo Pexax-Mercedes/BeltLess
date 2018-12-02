@@ -19,7 +19,7 @@ namespace Beltless
         {
             InitializeComponent();
         }
-       
+        int num = 1;
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -48,6 +48,11 @@ namespace Beltless
         
         public void showImage(int th)
         {
+
+
+            //Thread th = new Thread(() => showImage(100));
+            //th.Start();
+
             for (int i = 1; i < 11; i++)
             {
                 string myString = string.Format(@"C:\Users\HASAN NASER\Source\Repos\Beltless\Beltless\Resources\{0}.png", i);

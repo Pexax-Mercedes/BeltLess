@@ -65,6 +65,11 @@
     <Compile Include="Circular_Motion.cs" />
     <Compile Include="ConnectDB_demo.cs" />
     <Compile Include="ConnectionToAzure.cs" />
+    <Compile Include="Database\Cars.cs" />
+    <Compile Include="Database\Crush_Positions.cs" />
+    <Compile Include="Database\Person.cs" />
+    <Compile Include="Database\Seat_Sensors.cs" />
+    <Compile Include="Database\Situations.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +77,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="LinearMotion.cs" />
+    <Compile Include="Persons.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -127,5 +133,6 @@
     <Content Include="Resources\8.png" />
     <Content Include="Resources\9.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

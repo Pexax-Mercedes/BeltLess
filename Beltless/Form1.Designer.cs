@@ -232,12 +232,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Beltless.Properties.Resources.Mercedes_ic;
-            this.ClientSize = new System.Drawing.Size(952, 588);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(1022, 725);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
-            this.Font = new System.Drawing.Font("Tahoma", 9F);
-            this.ForeColor = System.Drawing.Color.Blue;
+            this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Demo For Project";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -251,19 +250,7 @@
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label Model;
-        private System.Windows.Forms.Label Speed;
-         private System.Windows.Forms.Label Weight;
-        private System.Windows.Forms.Label Position;
-        private System.Windows.Forms.Label Car;
-        private System.Windows.Forms.Label NName;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 
